@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+header, section, footer {
+    margin: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #007BFF; /* Blue color for headings */
+}
+
+.about-me, .goals, .childhood, .education, .advice, .skills-talents, .future-aspirations, .contact-info {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-style: italic;
+    color: #777;
+    cursor: pointer; /* Add cursor pointer to indicate interactivity */
+}
+
+.hidden {
+    display: none;
+}
+
+/* Style for contact links */
+.contact-info a {
+    color: #28a745; /* Green color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the toggle button */
+.toggle-childhood {
+    cursor: pointer;
+    color: #dc3545; /* Red color for the button */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.toggle-childhood:hover {
+    text-decoration: underline;
+}
+
+/* Style for images in sections */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+    margin-top: 10px; /* Add some space above the image */
+}
